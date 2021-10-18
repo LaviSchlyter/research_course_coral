@@ -33,5 +33,4 @@ For this project we are interested in the benthic cover of the corals derived fr
 The "seaviewsurvey_surveys.csv", contains **the proportional cover of reef cover** between _hard_ or _soft_ corals, _other invertebrates_ or _other_ or algea. 
 It also has "lat_start, lng_start", the latitude and longitude of start of survey but also the end "lat_end, lng_end". 
 
-The "seaviewsurvey_reefcover_Australia.csv" contains summary classification data for each photo, represented as **a percent cover**. Here we get the proportional cover of the specified class name within the photo-quadrat. It is thus more specific than the previous one. The file also contains the latitude and longitude of the photo quadrat for easy spotage. The survey id is also given which we can then link with the other data sets. 
-
+Useful additional information of the dataframe may be found in "Seaview_data_explanation.pdf" (in Data folder) for understanding variables such as Transect ID, survey ID
