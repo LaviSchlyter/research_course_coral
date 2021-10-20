@@ -1,16 +1,47 @@
 # Coral Reef introduction ot data 
 
-Author: Lavinia Schlyter
-Version: 1.0
-
 This repo is a succession/subsection of the Coral Reef repo but intended to be more reproducible as part of the course "Introduction to research" at EPFL. It will take several scripts from the original folder and make them such that they are more reproducible and follow coding conventions.
 
+
+## Description
 
 The goal of this notebook is to have a broad overview of the data for Australia (The Great Barrier Reef). That includes:
 - Plot the survey points on map
 - Basic data analysis for missing values
 - Analyse the different components of the image
 - Plot the distrubtion of the components (such as hard corals, soft corals ...) over the years 
+
+## Getting started
+
+### Dependencies
+
+* The code is provided with a Pipfile which contains all libraries included for running the scripts. The code is to be run on PYthon (Jupyter-lab or Jupyter-Notebook recommended). 
+* Ubuntu/MacOs
+
+### Installation
+
+This project uses `Pipenv` for package management; for the code to run and install all useful packages:
+- Git clone this repo
+- Enter the  directory `cd research_course_coral`
+- run (on Ubuntu) `pipenv install` (`Pipenv` will read the `Pipfile` and `Pipfile.lock` from the project, create a virtual environment and install all required dependencies). This command should be run from the terminal in the repo containing the `Pipfile`
+- If jupyter-lab/note are used, just run `jupyter-lab` from the terminal to open python
+
+The steps above may be used with conda ass well. Make sure to have installed `pipenv`
+
+---
+
+## Author
+Lavinia Schlyter
+[@LaviSchlyter][https://github.com/LaviSchlyter]
+
+## Version history
+* 0.1
+	* Initial test
+
+## License
+
+This project is licensed under the GPL 3 License - see the LICENSE.md for details
+
 
 ## Coral data presentation 
 
