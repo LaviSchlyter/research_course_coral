@@ -15,18 +15,20 @@ The goal of this notebook is to have a broad overview of the data for Australia 
 
 ### Dependencies
 
-* The code is provided with a Pipfile which contains all libraries included for running the scripts. The code is to be run on PYthon (Jupyter-lab or Jupyter-Notebook recommended). 
-* Ubuntu/MacOs
+* The code is provided with a Pipfile which contains all libraries included for running the scripts. The code is to be run on Python (Jupyter-lab or Jupyter-Notebook recommended). 
+* Ubuntu/MacOs/Windows
 
 ### Installation
 
 This project uses `Pipenv` for package management; for the code to run and install all useful packages:
-- Git clone this repo
+- Git clone this repo (on the terminal) `git clone https://github.com/LaviSchlyter/research_course_coral.git`
 - Enter the  directory `cd research_course_coral`
-- run (on Ubuntu) `pipenv install` (`Pipenv` will read the `Pipfile` and `Pipfile.lock` from the project, create a virtual environment and install all required dependencies). This command should be run from the terminal in the repo containing the `Pipfile`
+- In the terminal you may type `ls` to list the different files/repos to make sure it includes both the `Pipfile` and the `Pipfile.lock`
+- Run (on Ubuntu) `pipenv install` (`Pipenv` will read the `Pipfile` and `Pipfile.lock` from the project, create a virtual environment and install all required dependencies). Note that this command should be run from the terminal in the repo containing the `Pipfile`
 - If jupyter-lab/note are used, just run `jupyter-lab` from the terminal to open python
+- The script can then by run as a usual Python code. 
 
-The steps above may be used with conda ass well. Make sure to have installed `pipenv`
+The steps above may be used with conda as well. Make sure to have installed `pipenv`. 
 
 ---
 
